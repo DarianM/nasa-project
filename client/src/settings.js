@@ -1,9 +1,5 @@
 const resources = {
-  background: {
-    small: "/img/background-small.jpg",
-    medium: "/img/background-medium.jpg",
-    large: "/img/background-large.jpg",
-  },
+  background: {},
   pattern: "/img/glow.png",
 };
 

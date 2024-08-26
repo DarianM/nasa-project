@@ -13,7 +13,7 @@ import { theme, resources } from "./settings";
 
 const App = () => {
   return <ThemeProvider theme={createTheme(theme)}>
-      <Arwes animate background={resources.background.large} pattern={resources.pattern}>
+      <Arwes animate pattern={resources.pattern}>
         {anim => (
           <Router>
             <AppLayout show={anim.entered} />
